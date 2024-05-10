@@ -27,6 +27,7 @@ a:hover {
 
 body {
     background-color: rgba(233,237,238,255);
+    font-family: Arial, Helvetica, sans-serif ;
 }
 
 main {
@@ -35,7 +36,7 @@ main {
 
 main section, article {
     margin-bottom: 2em;
-    background-color: white;
+    
 }
 
 .bg-orange {
@@ -61,6 +62,7 @@ main section, article {
 
 #four-images {
     padding: 1em;
+    background-color: white;
 
 }
 
@@ -88,9 +90,19 @@ h2 {
     color: rgba(42,200,121,255);
 }
 
-section #first img, section #second img {
+section #first img, 
+section #second img {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
+
+}
+
+section #first a, 
+section #second a {
+    font-size: smaller;
+    margin-left: 1em;
+    font-weight: bolder;
 
 }
 
